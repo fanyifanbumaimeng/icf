@@ -68,7 +68,7 @@
       }
     },
     created(){
-      console.log(this)
+      //console.log(this)
       // 当页面中的data和methods对象都创建完毕以后，就会自动调用created
       this.getimgs();
     },
@@ -124,22 +124,22 @@
   }
 
   .mui-icon-home:before{
-    background-image: url(../../statics/imgs/1.png);
+    background-image: url(../assets/imgs/1.png);
   }
 
   .mui-icon-email:before{
-    background-image: url(../../statics/imgs/2.png);
+    background-image: url(../assets/imgs/2.png);
   }
   .mui-icon-chatbubble:before{
-    background-image: url(../../statics/imgs/3.png);
+    background-image: url(../assets/imgs/3.png);
   }
   .mui-icon-location:before{
-    background-image: url(../../statics/imgs/4.png);
+    background-image: url(../assets/imgs/4.png);
   }
   .mui-icon-search:before{
-    background-image: url(../../statics/imgs/5.png);
+    background-image: url(../assets/imgs/5.png);
   }
   .mui-icon-phone:before{
-    background-image: url(../../statics/imgs/6.png);
+    background-image: url(../assets/imgs/6.png);
   }
 </style>
